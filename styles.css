@@ -202,11 +202,10 @@ p
 }
 .skills
 {
-  position: absolute;
+  position: static;
   width: 100%;
   height:auto;
   margin:0;
-  margin-top: 127.5%;
   background-color:black;
   opacity: 0.9;
 }
@@ -272,11 +271,10 @@ p
 }
 .last
 {
-  position: absolute;
+  position: static;
   width: 100%;
   height:auto;
   margin:0;
-  margin-top: 201.5%;
   background-color:	dimgray;
   opacity: 0.6;
 }
