@@ -1,5 +1,5 @@
 html{
-  background: url(download.jfif) no-repeat center center fixed;
+  background: url(back3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,11 +12,20 @@ body
   padding: 0;
   margin: 0;
 }
-h2
+.h2l
 {
   font-size:40px;
   font-family:Lucida Handwriting, fantasy;
-  color: white;
+  color:black;
+  text-align: right;
+  line-height: 1.0em;
+}
+.h2r
+{
+  font-size:40px;
+  font-family:Lucida Handwriting, fantasy;
+  color:black;
+  line-height: 1.0em;
 }
 p
 {
@@ -31,7 +40,7 @@ p
   position: absolute;
   height: 400px;
   width: 400px;
-  margin-left: 8%;
+  margin-left: 70%;
   margin-top: 15%;
   display: inline-block;
 }
@@ -60,6 +69,8 @@ p
 {
   text-align: center;
   font-family: Brush Script MT, Brush Script Std, cursive;
+  color: aliceblue;
+  font-size: 50px;
 }
 .intro
 {
@@ -67,10 +78,18 @@ p
   height: 500px;
   width: 700px;
   position: absolute;
-  margin-top: 18%;
-  margin-left: 36%;
+  margin-top: 15%;
+  margin-left: 25%;
 }
 .intro1
+{
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: white;
+  font-size: 50px;
+  line-height: 1.5em;
+}
+.intro2
 {
   text-align: center;
   font-family: Brush Script MT, Brush Script Std, cursive;
@@ -78,26 +97,48 @@ p
   font-size: 30px;
   line-height: 1.5em;
 }
-.cv
+.main
 {
   position: absolute;
   width:100%;
   height:auto;
   margin:0;
   margin-top:55%;
+}
+.cv
+{
+  position: absolute;
+  width:100%;
+  height:auto;
+  margin:0;
   background-color:white;
+  opacity: 0.5;
 }
 .cvleft
 {
   display: inline-block;
   left:0;
-  width: 44%;
+  width: 43.8%;
   height:auto;
   color: black;
   vertical-align: top;
-  float: left;
-  padding: 3%;
+  padding: 2%;
+  padding-right: 2%;
+  padding-left: 4%
   word-wrap: break-word;
+}
+.vl
+{
+  display: inline-block;
+  width: 3px;
+  height: 1750px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: black;
+  vertical-align: top;
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: 3px;
 }
 .cvright
 {
@@ -107,29 +148,185 @@ p
   width: 44%;
   color:black;
   vertical-align: top;
-  float: right;
-  padding: 3%;
+  padding: 2%;
+  padding-left: 1%;
+  padding-right: 5%
   word-wrap: break-word;
 }
-.subh
+.subhleft
 {
   font-size:20px;
   font-family:Lucida Handwriting, fantasy;
   color:black;
+  text-align: right;
+  font-weight: bold;
+  line-height: 0.5em;
 }
-.l1
+.subhright
+{
+  font-size:20px;
+  font-family:Lucida Handwriting, fantasy;
+  color:black;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+.l1l
 {
   font-size: 15px;
   font-family:Lucida Handwriting, fantasy;
-  color: black;
+  color:darkslategray;
+  font-style: italic;
+  text-align: right;
+}
+.l1r
+{
+  font-size: 15px;
+  font-family:Lucida Handwriting, fantasy;
+  color: darkslategray;
   font-style: italic;
 }
-.l2
+.l2l
 {
   font-size: 15px;
   font-family:Lucida Handwriting, fantasy;
   color: black;
+  font-weight: bold;
+  text-align: right;
 }
+.l2r
+{
+  font-size: 15px;
+  font-family:Lucida Handwriting, fantasy;
+  color: black;
+  font-weight: bold;
+}
+.skills
+{
+  position: absolute;
+  width: 100%;
+  height:auto;
+  margin:0;
+  margin-top: 127.5%;
+  background-color:black;
+  opacity: 0.9;
+}
+.skills1
+{
+  display: inline-block;
+  left:0;
+  width: 40%;
+  height:auto;
+  color: black;
+  vertical-align: top;
+  padding: 4.2%;
+  word-wrap: break-word;
+}
+.skills2
+{
+  position: absolute;
+  display: inline-block;
+  right:0;
+  height:auto;
+  width: 40%;
+  color:black;
+  vertical-align: top;
+  padding: 5.5%;
+  word-wrap: break-word;
+}
+.h2s
+{
+  font-size:40px;
+  font-family:Lucida Handwriting, fantasy;
+  color:white;
+  line-height: 1.0em;
+}
+.s1
+{
+  display: inline-block;
+  font-size: 20px;
+  font-family:Lucida Handwriting, fantasy;
+  color: white;
+  font-weight: bold;
+}
+.i1
+{
+  width:200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.i2
+{
+  width:200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.ii
+{
+  font-size: 20px;
+  font-family:Lucida Handwriting, fantasy;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.last
+{
+  position: absolute;
+  width: 100%;
+  height:auto;
+  margin:0;
+  margin-top: 201.5%;
+  background-color:	dimgray;
+  opacity: 0.6;
+}
+.last1
+{
+  font-size: 40px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  line-height: 0.5em;
+  color: black;
+}
+hr
+{
+  width: 20%;
+  color: black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30px;
+}
+.fa:hover
+{
+    opacity: 0.7;
+}
+.fa-facebook
+{
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter
+{
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin
+{
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram
+{
+  background: #125688;
+  color: white;
+}
+
 .bar
 {
   background: #353b48;
@@ -187,6 +384,17 @@ p
   width: 60%;
   animation: oops 2s;
 }
+.eng
+{
+  width: 60%;
+  animation: eng 2s;
+}
+.hi
+{
+  width: 60%;
+  animation: hi 2s;
+}
+
 @keyframes c
 {
   0%
@@ -273,5 +481,29 @@ p
   100%
   {
     width: 60%;
+  }
+}
+@keyframes eng
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 80%;
+  }
+}
+@keyframes hi
+{
+  0%
+  {
+    width: 0%;
+    opacity: 0;
+  }
+  100%
+  {
+    width: 60%;
+    opacity: 1;
   }
 }
