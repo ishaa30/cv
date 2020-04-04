@@ -1,0 +1,277 @@
+html{
+  background: url(download.jfif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+}
+h2
+{
+  font-size:40px;
+  font-family:Lucida Handwriting, fantasy;
+  color: white;
+}
+p
+{
+  font-size:20px;
+  font-family:Lucida Handwriting, fantasy;
+  text-align: justify;
+  color:white;
+  line-height: 2.0em;
+}
+.top
+{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 8%;
+  margin-top: 15%;
+  display: inline-block;
+}
+.topa
+{
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  margin: 0px 45px 90px 45px;
+}
+.top1
+{
+  width:100%;
+  height:100%;
+  align:center;
+}
+.topb
+{
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  margin-top: 80%;
+  text-align: center;
+}
+.top2
+{
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.intro
+{
+  text-align: center;
+  height: 500px;
+  width: 700px;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 36%;
+}
+.intro1
+{
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: white;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+.cv
+{
+  position: absolute;
+  width:100%;
+  height:auto;
+  margin:0;
+  margin-top:55%;
+  background-color:white;
+}
+.cvleft
+{
+  display: inline-block;
+  left:0;
+  width: 44%;
+  height:auto;
+  color: black;
+  vertical-align: top;
+  float: left;
+  padding: 3%;
+  word-wrap: break-word;
+}
+.cvright
+{
+  display: inline-block;
+  right:0;
+  height:auto;
+  width: 44%;
+  color:black;
+  vertical-align: top;
+  float: right;
+  padding: 3%;
+  word-wrap: break-word;
+}
+.subh
+{
+  font-size:20px;
+  font-family:Lucida Handwriting, fantasy;
+  color:black;
+}
+.l1
+{
+  font-size: 15px;
+  font-family:Lucida Handwriting, fantasy;
+  color: black;
+  font-style: italic;
+}
+.l2
+{
+  font-size: 15px;
+  font-family:Lucida Handwriting, fantasy;
+  color: black;
+}
+.bar
+{
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span
+{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+.c
+{
+  width: 80%;
+  animation: c 2s;
+}
+.java
+{
+  width: 70%;
+  animation: java 2s;
+}
+.python
+{
+  width: 50%;
+  animation: python 2s;
+
+}
+.htm
+{
+  width: 80%;
+  animation: htm 2s;
+}
+.sql
+{
+  width: 60%;
+  animation: sql 2s;
+}
+.aws
+{
+  width: 50%;
+  animation: aws 2s;
+}
+.ds
+{
+  width: 60%;
+  animation: ds 2s;
+}
+.oops
+{
+  width: 60%;
+  animation: oops 2s;
+}
+@keyframes c
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 80%;
+  }
+}
+@keyframes java
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 70%;
+  }
+}
+@keyframes python
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 50%;
+  }
+}
+@keyframes htm
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 80%;
+  }
+}
+@keyframes sql
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 60%;
+  }
+}
+@keyframes aws
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 50%;
+  }
+}
+@keyframes ds
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 60%;
+  }
+}
+@keyframes oops
+{
+  0%
+  {
+    width: 0%;
+  }
+  100%
+  {
+    width: 60%;
+  }
+}
