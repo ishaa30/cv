@@ -87,38 +87,56 @@ body
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 3vw;
 }
+.main
+{
+  position: absolute;
+  width:100%;
+  height:auto;
+  margin:0;
+}
 .cv
 {
   position: static;
-  height: auto;
-  width: 100%;
-  background-color: white;
-  top:0;
+  width:100%;
+  height:auto;
+  margin:0;
+  background-color:white;
+  opacity: 0.5;
 }
 .cvleft
 {
-  position: absolute;
-  height: auto;
-  width: 39.75%;
+  display: inline-block;
   left:0;
-  padding: 5%;
-  background-color: yellow;
+  width: 43.8%;
+  height:auto;
+  color: black;
+  vertical-align: top;
+  padding: 2%;
+  padding-right: 2%;
+  padding-left: 4%
+}
+.vl
+{
+  display: inline-block;
+  width: 3px;
+  height: 1750px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: black;
+  vertical-align: top;
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: 3px;
 }
 .cvright
 {
-  position: absolute;
-  height: auto;
-  width:40.25%;
-  left:49.75%;
-  padding: 5%;
-  border-left-width: 0.5%;
-  border-left-color: black;
-  border-left-style: solid;
-  background-color: orange;
-}
-.skills1
-{
-  position: static;
-  height: auto;
-  width: 100%;
+  display: inline-block;
+  right:0;
+  height:auto;
+  width: 44%;
+  color:black;
+  vertical-align: top;
+  padding: 2%;
+  padding-left: 1%;
+  padding-right: 5%
 }
