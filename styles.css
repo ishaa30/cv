@@ -27,6 +27,8 @@ body
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  left:0;
+  right:0;
 }
 .top
 {
@@ -98,6 +100,8 @@ body
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  left:0;
+  right: 0;
 }
 .skills
 {
@@ -109,6 +113,8 @@ body
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  left:0;
+  right: 0;
 }
 .last
 {
@@ -120,6 +126,8 @@ body
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  left:0;
+  right: 0;
 }
 .cvleft
 {
@@ -231,299 +239,27 @@ body
   color: black;
   font-weight: bold;
 }
-.skills
-{
-  position: static;
-  width: 100%;
-  height:auto;
-  margin:0;
-  background-color:black;
-  opacity: 0.9;
-}
 .skills1
 {
+  position: absolute;
   display: inline-block;
   left:0;
+  height: 100%;
   width: 40%;
-  height:100%;
-  color: black;
-  vertical-align: top;
-  padding: 4.2%;
-  word-wrap: break-word;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: blue;
 }
 .skills2
 {
   position: absolute;
   display: inline-block;
-  right:0;
-  height:100%;
+  left:50%;
+  height: 100%;
   width: 40%;
-  color:black;
-  vertical-align: top;
-  padding: 5.5%;
-  word-wrap: break-word;
-}
-.h2s
-{
-  font-size:40px;
-  font-family:Lucida Handwriting, fantasy;
-  color:white;
-  line-height: 1.0em;
-}
-.s1
-{
-  display: inline-block;
-  font-size: 20px;
-  font-family:Lucida Handwriting, fantasy;
-  color: white;
-  font-weight: bold;
-}
-.i1
-{
-  width:200px;
-  height: 50px;
-  background-color: white;
-  border-radius: 10px;
-}
-.i2
-{
-  width:200px;
-  height: 50px;
-  background-color: white;
-  border-radius: 10px;
-}
-.ii
-{
-  font-size: 20px;
-  font-family:Lucida Handwriting, fantasy;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-}
-.last1
-{
-  font-size: 40px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  text-align: center;
-  line-height: 0.5em;
-  color: black;
-}
-hr
-{
-  width: 20%;
-  color: black;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 30px;
-}
-.fa:hover
-{
-    opacity: 0.7;
-}
-.fa-facebook
-{
-  background: #3B5998;
-  color: white;
-}
-.fa-twitter
-{
-  background: #55ACEE;
-  color: white;
-}
-.fa-linkedin
-{
-  background: #007bb5;
-  color: white;
-}
-.fa-instagram
-{
-  background: #125688;
-  color: white;
-}
-
-.bar
-{
-  background: #353b48;
-  display: block;
-  height: 2px;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #2187e7b3;
-}
-.bar span
-{
-  height: 2px;
-  float: left;
-  background: #2187e7;
-}
-.c
-{
-  width: 80%;
-  animation: c 2s;
-}
-.java
-{
-  width: 70%;
-  animation: java 2s;
-}
-.python
-{
-  width: 50%;
-  animation: python 2s;
-
-}
-.htm
-{
-  width: 80%;
-  animation: htm 2s;
-}
-.sql
-{
-  width: 60%;
-  animation: sql 2s;
-}
-.aws
-{
-  width: 50%;
-  animation: aws 2s;
-}
-.ds
-{
-  width: 60%;
-  animation: ds 2s;
-}
-.oops
-{
-  width: 60%;
-  animation: oops 2s;
-}
-.eng
-{
-  width: 60%;
-  animation: eng 2s;
-}
-.hi
-{
-  width: 60%;
-  animation: hi 2s;
-}
-
-@keyframes c
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 80%;
-  }
-}
-@keyframes java
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 70%;
-  }
-}
-@keyframes python
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 50%;
-  }
-}
-@keyframes htm
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 80%;
-  }
-}
-@keyframes sql
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 60%;
-  }
-}
-@keyframes aws
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 50%;
-  }
-}
-@keyframes ds
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 60%;
-  }
-}
-@keyframes oops
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 60%;
-  }
-}
-@keyframes eng
-{
-  0%
-  {
-    width: 0%;
-  }
-  100%
-  {
-    width: 80%;
-  }
-}
-@keyframes hi
-{
-  0%
-  {
-    width: 0%;
-    opacity: 0;
-  }
-  100%
-  {
-    width: 60%;
-    opacity: 1;
-  }
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: yellow;
 }
