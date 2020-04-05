@@ -87,3 +87,38 @@ body
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 3vw;
 }
+.cv
+{
+  position: static;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  top:0;
+}
+.cvleft
+{
+  position: absolute;
+  height: auto;
+  width: 39.75%;
+  left:0;
+  padding: 5%;
+  background-color: yellow;
+}
+.cvright
+{
+  position: absolute;
+  height: auto;
+  width:40.25%;
+  left:49.75%;
+  padding: 5%;
+  border-left-width: 0.5%;
+  border-left-color: black;
+  border-left-style: solid;
+  background-color: orange;
+}
+.skills1
+{
+  position: static;
+  height: auto;
+  width: 100%;
+}
